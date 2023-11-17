@@ -1,0 +1,310 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+h1, 
+h2, 
+h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+/* Navbar */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(214, 45, 59);
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.logo {
+    width: 60px;
+    margin-top: 13px;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #c0c0c0;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #f0f0f0;
+    color:rgb(214, 45, 59);
+}
+
+/* main banner */
+.main-banner {
+    background-image: url(../img/header_red.png);
+    background-size: over;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 4px;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 20px;
+}
+
+/* Benefits */
+.benefits-container {
+    padding: 5rem 0;
+}
+
+.benefits-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto; /* a way to centralize */
+}
+
+.benefits-container li {
+    flex: 1 1 200px; /* grow - shrink - buys (width base) */
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-bell {
+    color: #e21d1d;
+}
+
+.fa-bus-alt {
+    color: #e21d1d;
+}
+
+.fa-comment {
+    color: #e21d1d;
+}
+
+.benefits-container h3 {
+    margin-bottom: 25px;
+}
+
+.benefits-container p {
+    line-height: 24px; /* line spacing between */
+}
+
+/* prices and plans */
+.pricing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-containre h2 {
+    font-size: 36px;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display:flex;
+    justify-content: space-between; /* elements side by side */
+    width: 90%;
+    margin: 50px auto 0; /* upper 50px and auto on the sides to center content */
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea ;
+    color: #333;
+}
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e21d1d;
+    color: #FFF;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #101113;
+    padding: 50px 0;
+}
+
+.plan .plan-btn {
+    background-color: #e21d1d;
+    color: #FFF;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended {
+    background-color: rgb(255, 145, 0);
+}
+
+/* Search */
+.searchcuriosity-container {
+    background-color: #100c0c;
+    text-align: center;
+    padding: 5rem 0;    
+}
+
+.searchcuriosity-container h2 {
+    color: #FFF;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchcuriosity-container p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchcuriosity-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchcuriosity-container input[type="text"] {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchcuriosity-container input[type="submit"] {
+    background-color: #e21d1d;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.searchcuriosity-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
+/* contact form */
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #e21d1d;
+    color: #FFF;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.contact-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 100px;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED Canids Club</title>
+    <!-- Icons -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav> <!-- Navigation Bar Starts -->
+                <a href="#">
+                    <img src="img/red_logo.png" alt="RED Canids" class="logo">  
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Store</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Sign In</a>
+                    </li>
+                </ul>   
+            </nav> <!-- Navigation Bar Ends -->
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1>RED Canids</h1>
+                <p>Aqui é onde a matilha chora e a mãe não vê!</p>
+            </div>
+            <section class="benefits-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-bell"></i>
+                        <h3>Novidades</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque, 
+                        illo nobis ipsam voluptatibus non sunt odio veritatis aperiam, impedit 
+                        debitis laboriosam. Consequatur error atque totam, beatae nobis 
+                        quibusdam ratione?
+                    </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-bus-alt"></i>
+                        <h3>Caravana</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque, 
+                        illo nobis ipsam voluptatibus non sunt odio veritatis aperiam, impedit 
+                        debitis laboriosam. Consequatur error atque totam, beatae nobis 
+                        quibusdam ratione?
+                    </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comment"></i>
+                        <h3>Comunidade</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque, 
+                        illo nobis ipsam voluptatibus non sunt odio veritatis aperiam, impedit 
+                        debitis laboriosam. Consequatur error atque totam, beatae nobis 
+                        quibusdam ratione?
+                    </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h2>Planos e Preços</h2>
+                <p>Qual seu plano pra se juntar a matilha?</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$15/mês</li>
+                            <li class="plan-name">Básico</li>
+                            <li>Benefício 1</li>
+                            <li>Benefício 2</li>
+                            <li>Benefício 3</li>
+                            <li>Benefício 4</li>
+                            <li>Benefício 5</li>
+                            <li class="plan-btn">Saiba mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price recommended">R$30/mês</li>
+                            <li class="plan-name">Lobinho</li>
+                            <li>Benefício 1</li>
+                            <li>Benefício 2</li>
+                            <li>Benefício 3</li>
+                            <li>Benefício 4</li>
+                            <li>Benefício 5</li>
+                            <li class="plan-btn recommended">Saiba mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$80/mês</li>
+                            <li class="plan-name">Matilha</li>
+                            <li>Benefício 1</li>
+                            <li>Benefício 2</li>
+                            <li>Benefício 3</li>
+                            <li>Benefício 4</li>
+                            <li>Benefício 5</li>
+                            <li class="plan-btn">Saiba mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$180/mês</li>
+                            <li class="plan-name">Lobo-Torcedor</li>
+                            <li>Benefício 1</li>
+                            <li>Benefício 2</li>
+                            <li>Benefício 3</li>
+                            <li>Benefício 4</li>
+                            <li>Benefício 5</li>
+                            <li class="plan-btn">Saiba mais</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="searchcuriosity-container">
+                <h2>Quer saber mais sobre o RED Clube?</h2>
+                <p>Procure uma curiosidade e veja se nós já temos respostas!</p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="curiosity" 
+                    id="curiosity" 
+                    placeholder="O que você quer saber?">
+                    <input type="submit" value="Quero pesquisar">
+                </form>
+            </section>
+            <section class="contact-container">
+                <h2>Mande uma mensagem</h2>
+                <p>Envie a sua mensagem, em até 4 horas um membro da matilha entrará em contato</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    <textarea name="message" id="message" placeholder="Escreva o que você precisa..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>RED Canids @ 2022</p>
+        </footer>
+    </div>
+</body>
+</html>
